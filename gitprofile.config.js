@@ -2,66 +2,72 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'martinsndifon', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 8, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'martinsndifon',
+    twitter: 'martins_ndifon',
+    mastodon: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'martinsndifon', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'martinsndifon',
+    dev: 'martinsndifon',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://martinsndifon.tech',
+    phone: '+2348164404546',
+    email: 'martinsndifon@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1hwuusFIB3zFFRxOzbB-2JVOL_WyyzIudXN4NIYZOUYQ/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'flask',
+    'Django',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Express.js',
+    'C',
+    'Bash',
     'MySQL',
-    'PostgreSQL',
+    'MongoDB',
+    'Redis',
     'Git',
     'Docker',
-    'PHPUnit',
+    'Vagrant',
     'CSS',
-    'Antd',
+    'AWS',
     'Tailwind',
+    'Web RTC',
+    'socketIO',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'ALX Africa',
+      position: 'Software Engineer',
+      from: 'May 2022',
+      to: 'present',
+      companyLink: 'https://www.alxafrica.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'ALX Africa',
+      position: 'Learning Ambassador',
+      from: 'May 2023',
+      to: 'July 2023',
+      companyLink: 'https://www.alxafrica.com',
     },
   ],
   /* certifications: [
@@ -74,40 +80,40 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Alx SE',
+      degree: 'Software Engineering',
+      from: '2022',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Cross River University of Technology',
+      degree: 'Mechanical Engineering',
+      from: '2014',
+      to: '2019',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'syncvision',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'An RTC Web application that enables video/audio and text data transfer.',
+      imageUrl: 'https://syncvision.live/ogi.png',
+      link: 'https://syncvision.live',
     },
     {
-      title: 'Project Name',
+      title: 'skyspringhomes',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'A Real estate Web app with REST api for CRUD operations in the app.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'martinsndifon', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +125,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -127,44 +133,13 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
-    ],
+    themes: ['light', 'dark', 'night'],
 
     // Custom theme
     customTheme: {
@@ -179,11 +154,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Thank you for Visiting ❤️`,
 };
 
 export default config;
