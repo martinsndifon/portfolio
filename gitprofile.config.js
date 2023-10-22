@@ -7,7 +7,7 @@ const config = {
     limit: 8, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['blackbird'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -70,14 +70,20 @@ const config = {
       companyLink: 'https://www.alxafrica.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Lyft',
+      body: 'Lyft Back-End Engineering Job Simulation',
+      year: 'October 2023',
+      link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Lyft/xSw9echtixLAoPdsH_Lyft_G74NXrevMsuKeXnwB_1697569519181_completion_certificate.pdf',
     },
-  ], */
+    {
+      name: 'BlackBird',
+      body: 'BlackBird Australia - Software Engineering job simulation',
+      year: 'October 2023',
+      link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Blackbird/8XSySTLv68WYeFhke_Blackbird%20Australia_G74NXrevMsuKeXnwB_1697834171320_completion_certificate.pdf',
+    },
+  ],
   education: [
     {
       institution: 'Alx SE',
@@ -106,8 +112,9 @@ const config = {
       title: 'skyspringhomes',
       description:
         'A Real estate Web app with REST api for CRUD operations in the app.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl:
+        'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
+      link: 'https://skyspringhomes.martinsndifon.tech/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
