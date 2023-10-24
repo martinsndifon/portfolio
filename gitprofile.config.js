@@ -41,15 +41,18 @@ const config = {
     'Node.js',
     'Express.js',
     'C',
+    'DSA',
     'Bash',
     'MySQL',
     'MongoDB',
     'Redis',
+    'DevOps',
+    'SysAdmin',
     'Git',
     'Docker',
     'Vagrant',
-    'CSS',
     'AWS',
+    'CSS',
     'Tailwind',
     'Web RTC',
     'socketIO',
@@ -59,7 +62,7 @@ const config = {
       company: 'ALX Africa',
       position: 'Software Engineer',
       from: 'May 2022',
-      to: 'present',
+      to: 'September 2023',
       companyLink: 'https://www.alxafrica.com',
     },
     {
@@ -86,16 +89,16 @@ const config = {
   ],
   education: [
     {
-      institution: 'Alx SE',
+      institution: 'Alx SE, Kenya',
       degree: 'Software Engineering',
       from: '2022',
       to: '2023',
     },
     {
-      institution: 'Cross River University of Technology',
-      degree: 'Mechanical Engineering',
-      from: '2014',
-      to: '2019',
+      institution: 'Cross River University of Technology, Nigeria',
+      degree: 'Computer Science',
+      from: '2016',
+      to: '2021',
     },
   ],
 
@@ -104,14 +107,14 @@ const config = {
     {
       title: 'syncvision',
       description:
-        'An RTC Web application that enables video/audio and text data transfer.',
+        'An RTC Web application that enables video/audio, text and screen data transfer.',
       imageUrl: 'https://syncvision.live/ogi.png',
       link: 'https://syncvision.live',
     },
     {
       title: 'skyspringhomes',
       description:
-        'A Real estate Web app with REST api for CRUD operations in the app.',
+        'A Real estate Web app with REST api for CRUD operations by authenticated users (admin) in the app.',
       imageUrl:
         'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
       link: 'https://skyspringhomes.martinsndifon.tech/',
