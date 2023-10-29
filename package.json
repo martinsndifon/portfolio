@@ -38,6 +38,10 @@
     "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\""
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@mui/lab": "^5.0.0-alpha.150",
+    "@mui/material": "^5.14.15",
+    "email-validator": "^2.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -63,6 +67,7 @@
     "vite-plugin-pwa": "^0.16.3"
   },
   "keywords": [
+    "Martins Ndifon",
     "git-profile",
     "gitprofile",
     "gitportfolio",

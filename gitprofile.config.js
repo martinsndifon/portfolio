@@ -86,10 +86,16 @@ const config = {
       year: 'October 2023',
       link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Blackbird/8XSySTLv68WYeFhke_Blackbird%20Australia_G74NXrevMsuKeXnwB_1697834171320_completion_certificate.pdf',
     },
+    {
+      name: 'ALX Africa',
+      body: 'ALX Africa - Software Engineer',
+      year: 'September 2023',
+      link: 'https://docs.google.com/presentation/d/16fxxjNNYqvbw4BZ6ZUsmHrKGZjeRjodewYmHT2CQJok/edit?usp=sharing',
+    },
   ],
   education: [
     {
-      institution: 'Alx SE, Kenya',
+      institution: 'ALX Africa, Kenya',
       degree: 'Software Engineering',
       from: '2022',
       to: '2023',
@@ -135,7 +141,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -164,7 +170,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Thank you for Visiting ❤️`,
+  footer: `Thank you for Visiting, do have a lovely day ❤️`,
 };
 
 export default config;
