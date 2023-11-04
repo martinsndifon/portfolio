@@ -4,10 +4,10 @@ const config = {
   github: {
     username: 'martinsndifon', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 8, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['blackbird'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['blackbird', 'martinsndifon'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -74,6 +74,12 @@ const config = {
     },
   ],
   certifications: [
+    {
+      name: 'AWS',
+      body: 'AWS APAC - Solutions Architecture Job Simulation',
+      year: 'November 2023',
+      link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/AWS/kkE9HyeNcw6rwCRGw_AWS%20APAC_G74NXrevMsuKeXnwB_1699135726084_completion_certificate.pdf',
+    },
     {
       name: 'Lyft',
       body: 'Lyft Back-End Engineering Job Simulation',

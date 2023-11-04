@@ -114,7 +114,7 @@ export default function ContactForm({ loading }) {
               }}
             >
               <Typography component="h1" variant="h5">
-                Contact Me
+                Contact
               </Typography>
               <Box
                 ref={form}
