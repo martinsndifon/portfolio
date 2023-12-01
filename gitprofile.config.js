@@ -90,6 +90,12 @@ const config = {
       link: 'https://www.udemy.com/certificate/UC-bc5deb34-f3c8-444d-9ae4-4de5e2b2e4a3/',
     },
     {
+      name: 'ALX Africa',
+      body: 'ALX Africa - Software Engineer',
+      year: 'November 2023',
+      link: 'https://intranet.alxswe.com/certificates/RleSB3NF8E',
+    },
+    {
       name: 'Lyft',
       body: 'Lyft Back-End Engineering Job Simulation',
       year: 'October 2023',
@@ -100,12 +106,6 @@ const config = {
       body: 'BlackBird Australia - Software Engineering job simulation',
       year: 'October 2023',
       link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Blackbird/8XSySTLv68WYeFhke_Blackbird%20Australia_G74NXrevMsuKeXnwB_1697834171320_completion_certificate.pdf',
-    },
-    {
-      name: 'ALX Africa',
-      body: 'ALX Africa - Software Engineer',
-      year: 'September 2023',
-      link: 'https://docs.google.com/presentation/d/16fxxjNNYqvbw4BZ6ZUsmHrKGZjeRjodewYmHT2CQJok/edit?usp=sharing',
     },
   ],
   education: [
