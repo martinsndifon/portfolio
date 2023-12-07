@@ -128,9 +128,24 @@ const config = {
     {
       title: 'syncvision',
       description:
-        'An RTC Web application that enables video/audio, text and screen data transfer.',
+        'An RTC Web application that enables video/audio and text communication between peers, screen sharing included.',
       imageUrl: 'https://syncvision.live/ogi.png',
       link: 'https://syncvision.live',
+    },
+    {
+      title: 'the-wild-oasis',
+      description:
+        'This is an internal application meant for staff use only and therefore protected by a compulsory login screen. You can request for a guest login via email.',
+      imageUrl: 'https://the-wild-oasis.martinsndifon.tech/logo-light.png',
+      link: 'https://the-wild-oasis.martinsndifon.tech/',
+    },
+    {
+      title: 'recipe-app-api',
+      description:
+        'This is recipe api built with django and django-rest-framework. Authenticated users can create, read, update and delete recipes using this api.',
+      imageUrl:
+        'https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png',
+      link: 'http://recipe-api.martinsndifon.tech/api/docs#/',
     },
     {
       title: 'skyspringhomes',
@@ -139,6 +154,14 @@ const config = {
       imageUrl:
         'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
       link: 'https://skyspringhomes.martinsndifon.tech/',
+    },
+    {
+      title: 'skyspringhomes-admin',
+      description:
+        'The admin app for skyspringhomes. Protected by a login page, you can request for a guest login via email',
+      imageUrl:
+        'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
+      link: 'https://skyspringhomes.martinsndifon.tech/admin',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
