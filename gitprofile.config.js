@@ -163,6 +163,14 @@ const config = {
         'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
       link: 'https://skyspringhomes.martinsndifon.tech/admin',
     },
+    {
+      title: 'todo-app',
+      description:
+        'This is a todo app api built with fastapi, it has a minimalistic frontend made with jinja for public use.',
+      imageUrl:
+        'https://todo-app-fastapi.martinsndifon.tech/static/todo/images/png-transparent-fastapi-hd-logo-thumbnail.png',
+      link: 'https://todo-app-fastapi.martinsndifon.tech/',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
