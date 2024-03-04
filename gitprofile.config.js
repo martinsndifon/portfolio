@@ -137,7 +137,7 @@ const config = {
       description:
         'This is an internal application meant for staff use only and therefore protected by a compulsory login screen. You can request for a guest login via email.',
       imageUrl: 'https://the-wild-oasis.martinsndifon.tech/logo-light.png',
-      link: 'https://the-wild-oasis.martinsndifon.tech/',
+      link: 'https://the-wild-oasis.ndifonmartins.tech/',
     },
     {
       title: 'recipe-app-api',
@@ -145,23 +145,7 @@ const config = {
         'This is recipe api built with django and django-rest-framework. Authenticated users can create, read, update and delete recipes using this api.',
       imageUrl:
         'https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png',
-      link: 'http://recipe-api.martinsndifon.tech/api/docs#/',
-    },
-    {
-      title: 'skyspringhomes',
-      description:
-        'A Real estate Web app with REST api for CRUD operations by authenticated users (admin) in the app.',
-      imageUrl:
-        'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
-      link: 'https://skyspringhomes.martinsndifon.tech/',
-    },
-    {
-      title: 'skyspringhomes-admin',
-      description:
-        'The admin app for skyspringhomes. Protected by a login page, you can request for a guest login via email',
-      imageUrl:
-        'https://skyspringhomes.martinsndifon.tech/static/images/icon.png',
-      link: 'https://skyspringhomes.martinsndifon.tech/admin',
+      link: 'http://recipe-api.ndifonmartins.tech/api/docs#/',
     },
     {
       title: 'todo-app',
@@ -169,7 +153,7 @@ const config = {
         'This is a todo app api built with fastapi, it has a minimalistic frontend made with jinja for public use.',
       imageUrl:
         'https://todo-app-fastapi.martinsndifon.tech/static/todo/images/png-transparent-fastapi-hd-logo-thumbnail.png',
-      link: 'https://todo-app-fastapi.martinsndifon.tech/',
+      link: 'https://todo-app-fastapi.ndifonmartins.tech/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
