@@ -7,7 +7,7 @@ const config = {
     limit: 6, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['blackbird', 'martinsndifon'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['blackbird', 'martinsndifon', 'iTest'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -24,7 +24,7 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://martinsndifon.tech',
+    website: 'https://ndifonmartins.tech',
     phone: '+2348164404546',
     email: 'martinsndifon@gmail.com',
   },
@@ -136,7 +136,7 @@ const config = {
       title: 'the-wild-oasis',
       description:
         'This is an internal application meant for staff use only and therefore protected by a compulsory login screen. You can request for a guest login via email.',
-      imageUrl: 'https://the-wild-oasis.martinsndifon.tech/logo-light.png',
+      imageUrl: 'https://the-wild-oasis.ndifonmartins.tech/logo-light.png',
       link: 'https://the-wild-oasis.ndifonmartins.tech/',
     },
     {
@@ -152,7 +152,7 @@ const config = {
       description:
         'This is a todo app api built with fastapi, it has a minimalistic frontend made with jinja for public use.',
       imageUrl:
-        'https://todo-app-fastapi.martinsndifon.tech/static/todo/images/png-transparent-fastapi-hd-logo-thumbnail.png',
+        'https://todo-app-fastapi.ndifonmartins.tech/static/todo/images/png-transparent-fastapi-hd-logo-thumbnail.png',
       link: 'https://todo-app-fastapi.ndifonmartins.tech/',
     },
   ],
